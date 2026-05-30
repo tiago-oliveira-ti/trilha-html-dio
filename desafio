@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha HTML - DIO</title>
+</head>
+
+<body>
+
+    <h1>Trilha HTML - DIO.me</h1>
+    <small>Desafio do módulo 01 - Primeiros passos com HTML</small>
+
+    <hr>
+
+    <h2>Módulo 01 - Primeiros passos com HTML</h2>
+    <small>Aprendendo a estrutura básica do HTML</small>
+
+    <h3>Índice</h3>
+
+    <ul>
+        <li><a href="#html">O que é HTML?</a></li>
+        <li><a href="#tags">Principais Tags</a></li>
+        <li><a href="#extras">Tags Extras</a></li>
+    </ul>
+
+    <small>Use os links acima para navegar pela página.</small>
+
+    <hr>
+
+    <h2 id="html">O que é HTML?</h2>
+    <small>Introdução ao HTML</small>
+
+    <p>
+        <strong>HTML</strong> significa
+        <abbr title="HyperText Markup Language">HTML</abbr>,
+        uma linguagem de marcação utilizada para estruturar páginas web.
+    </p>
+
+    <p>
+        Durante o curso aprendemos a utilizar textos com
+        <i>itálico</i>,
+        <u>sublinhado</u>
+        e também destacar palavras usando
+        <mark>marca-texto</mark>.
+    </p>
+
+    <blockquote>
+        "HTML é o esqueleto de uma página web."
+    </blockquote>
+
+    <small>Frase bastante utilizada para explicar HTML.</small>
+
+    <p>
+        Algumas tags ajudam a demonstrar informações matemáticas e químicas:
+    </p>
+
+    <p>
+        Água = H<sub>2</sub>O
+    </p>
+    <small>Exemplo usando sub.</small>
+
+    <p>
+        Potência = 10<sup>2</sup> = 100
+    </p>
+    <small>Exemplo usando sup.</small>
+
+    <hr>
+
+    <h2 id="tags">Principais Tags</h2>
+    <small>Tags aprendidas durante as aulas.</small>
+
+    <h3>Exemplo de Lista Ordenada</h3>
+
+    <ol>
+        <li>Aprender HTML</li>
+        <li>Praticar códigos</li>
+        <li>Criar projetos</li>
+    </ol>
+
+    <small>Lista numerada usando ol e li.</small>
+
+    <h3>Exemplo de Lista Não Ordenada</h3>
+
+    <ul>
+        <li>Tags de texto</li>
+        <li>Links</li>
+        <li>Listas</li>
+    </ul>
+
+    <small>Lista simples usando ul e li.</small>
+
+    <p>
+        Você pode acessar o site da
+        <a href="https://www.dio.me/" target="_blank">
+            DIO
+        </a>
+        para continuar os estudos.
+    </p>
+
+    <small>O link abre em outra guia do navegador.</small>
+
+    <hr>
+
+    <h2 id="extras">Tags Extras Pesquisadas</h2>
+    <small>Tags sugeridas no desafio.</small>
+
+    <h4>Tag FONT</h4>
+
+    <p>
+        <font color="blue">
+            Este texto usa a tag font.
+        </font>
+    </p>
+
+    <small>
+        A tag font é antiga e hoje normalmente é substituída pelo CSS.
+    </small>
+
+    <h5>Tag DEL</h5>
+
+    <p>
+        O preço antigo era <del>R$100,00</del>.
+    </p>
+
+    <p>
+        Agora custa R$80,00.
+    </p>
+
+    <small>Tag del indica texto removido ou alterado.</small>
+
+    <h6>Finalização</h6>
+
+    <p>
+        Este desafio utiliza todas as principais tags estudadas até agora no curso.
+    </p>
+
+    <small>
+        Página criada apenas com HTML para fins de aprendizagem.
+    </small>
+
+</body>
+
+</html>
